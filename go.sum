@@ -1,0 +1,6 @@
+github.com/cathieyun/libfss v0.0.0-20170525070158-2fb3c458e336 h1:/hVnw7bRZ7iURrbrbF+gTal+eKEfHLt+JdzmH6KeFPw=
+github.com/cathieyun/libfss v0.0.0-20170525070158-2fb3c458e336/go.mod h1:Vye4PCh2Hyunw30p9nASe7xYEtXnipLqDJhxfST4A2M=
+github.com/frankw2/libfss v0.0.0-20181115202207-03c7df90f8a9 h1:FQ9npRDeovfKZJkKIbre1GBb0aY3LDdQhCWaHnTo5ow=
+github.com/frankw2/libfss v0.0.0-20181115202207-03c7df90f8a9/go.mod h1:iipSVgX9WIaf/EWgQK2iUAuejCEWLHnfwsH5R4J239g=
+golang.org/x/tools v0.16.1 h1:TLyB3WofjdOEepBHAU20JdNC1Zbg87elYofWYAY5oZA=
+golang.org/x/tools v0.16.1/go.mod h1:kYVVN6I1mBNoB1OX+noeBjbRk4IUEPa7JJ+TJMEooJ0=
