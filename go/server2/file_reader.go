@@ -14,7 +14,7 @@ import (
 // Runs FSS to evalute db records
 func readIntFetchSmall(server *libfss.Fss, serverNum byte, fssKey libfss.FssKeyEq2P, fileName string) string {
 	var ans int = 0
-	file, err := os.Open("tpch_line_number.csv")
+	file, err := os.Open("../data/tpch_line_number_2.csv")
 	if err != nil {
 		fmt.Println("Error opening file:", err)
 		return ""
