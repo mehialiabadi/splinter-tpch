@@ -24,6 +24,13 @@ func readIntFetchSmall(server *libfss.Fss, serverNum byte, fssKey libfss.FssKeyE
 
 	reader := csv.NewReader(file)
 
+	// Read the header (first line) and discard it
+	_, err = reader.Read()
+	if err != nil {
+		fmt.Println("Error reading header:", err)
+		return ""
+	}
+
 	records, err := reader.ReadAll()
 	if err != nil {
 		fmt.Println("Error reading CSV:", err)
